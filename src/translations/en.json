@@ -974,6 +974,26 @@
                 "save_button": "Save",
                 "external_url": "External URL",
                 "internal_url": "Internal URL"
+              },
+              "analytics": {
+                "header": "Analytics",
+                "introduction": "Lorem ipsum...",
+                "instance_id": "Instance ID: {uuid}",
+                "preference": {
+                  "base": {
+                    "title": "Basic analytics",
+                    "description": "This includes the Instance ID, the version and the installation type."
+                  },
+                  "integrations": {
+                    "title": "Integration usage",
+                    "description": "This includes the names of your integrations, and if you are using any custom integrations"
+                  },
+                  "statistics": {
+                    "title": "Usage statistics",
+                    "description": "This includes a counts of elements in your installation, for a full list look at the documentation"
+                  }
+                },
+                "documentation": "Visit the analytics documentation page {link} to learn more."
               }
             }
           }
